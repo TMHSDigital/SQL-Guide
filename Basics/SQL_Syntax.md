@@ -13,44 +13,6 @@ The INSERT statement is used to add new data to a database.
 
 INSERT INTO table_name (column1, column2) VALUES (value1, value2);
 
-UPDATE
-The UPDATE statement is used to modify existing data in a database.
-
-UPDATE table_name SET column1 = value1 WHERE condition;
-
-DELETE
-The DELETE statement is used to remove data from a database.
-
-DELETE FROM table_name WHERE condition;
-
-Clauses
-FROM
-Specifies the table from which to retrieve or manipulate data.
-
-SELECT column1, column2 FROM table_name;
-
-WHERE
-Filters records based on specified conditions.
-
-SELECT column1, column2 FROM table_name WHERE condition;
-
-GROUP BY
-Groups rows that have the same values in specified columns into summary rows.
-
-SELECT column1, COUNT(*) FROM table_name GROUP BY column1;
-
-HAVING
-Filters groups based on specified conditions, often used with GROUP BY.
-
-SELECT column1, COUNT(*) FROM table_name GROUP BY column1 HAVING COUNT(*) > 1;
-
-ORDER BY
-Sorts the result set in ascending or descending order.
-
-SELECT column1, column2 FROM table_name ORDER BY column1 ASC;
-SELECT column1, column2 FROM table_name ORDER BY column1 DESC;
-
-
 **Operators**
   *Comparison Operators*
   =: Equal to
