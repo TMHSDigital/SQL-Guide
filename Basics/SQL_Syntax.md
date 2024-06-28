@@ -52,38 +52,38 @@ SELECT column1, column2 FROM table_name ORDER BY column1 DESC;
 
 
 Operators
-Comparison Operators
-=: Equal to
-<>: Not equal to
->: Greater than
-<: Less than
->=: Greater than or equal to
-<=: Less than or equal to
+  Comparison Operators
+  =: Equal to
+  <>: Not equal to
+  >: Greater than
+  <: Less than
+  >=: Greater than or equal to
+  <=: Less than or equal to
 Logical Operators
-AND: Combines multiple conditions; all conditions must be true.
-OR: Combines multiple conditions; at least one condition must be true.
-NOT: Negates a condition.
+  AND: Combines multiple conditions; all conditions must be true.
+  OR: Combines multiple conditions; at least one condition must be true.
+  NOT: Negates a condition.
 Arithmetic Operators
-+: Addition
--: Subtraction
-*: Multiplication
-/: Division
-%: Modulus
+  +: Addition
+  -: Subtraction
+  *: Multiplication
+  /: Division
+  %: Modulus
 Functions
 Aggregate Functions
-COUNT(): Returns the number of rows that match a specified condition.
-SUM(): Returns the total sum of a numeric column.
-AVG(): Returns the average value of a numeric column.
-MIN(): Returns the smallest value of a column.
-MAX(): Returns the largest value of a column.
+  COUNT(): Returns the number of rows that match a specified condition.
+  SUM(): Returns the total sum of a numeric column.
+  AVG(): Returns the average value of a numeric column.
+  MIN(): Returns the smallest value of a column.
+  MAX(): Returns the largest value of a column.
 String Functions
-CONCAT(): Concatenates two or more strings.
-LENGTH(): Returns the length of a string.
-SUBSTRING(): Extracts a substring from a string.
+  CONCAT(): Concatenates two or more strings.
+  LENGTH(): Returns the length of a string.
+  SUBSTRING(): Extracts a substring from a string.
 Date Functions
-NOW(): Returns the current date and time.
-CURDATE(): Returns the current date.
-DATEDIFF(): Returns the difference in days between two dates.
+  NOW(): Returns the current date and time.
+  CURDATE(): Returns the current date.
+  DATEDIFF(): Returns the difference in days between two dates.
 
 Example Query
 Here's an example of a complex query that combines several of these elements:
